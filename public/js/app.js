@@ -56,7 +56,7 @@ module.controller("ContainersController", function($rootScope, $scope, $window, 
   };
 
   $scope.openContainer = function(container) {
-    var win = window.open('http://' + container.id + ':8080', '_blank');
+    var win = window.open('http://' + container.id + ':6060', '_blank');
     win.focus();
   };
 
