@@ -3,6 +3,9 @@ A web interface to list and to display logs of containers from Docker - in real-
 
 ## Getting Started
 
+- One will need node.js and npm
+- cd docker-logs && npm install 
+
 #### Listing containers
 
 - Clone this repository to your docker server;
@@ -15,10 +18,3 @@ A web interface to list and to display logs of containers from Docker - in real-
 - Use forever to start the container server.js automatically after boot;
 - Access http://yourdockerip:8080 and click on 'Log' to view real time loggging.
 
-#### Dependencies
-
-- NodeJs
-- Socket.io;
-- Express;
-- Tail;
-- AngularJs.
