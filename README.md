@@ -1,4 +1,4 @@
-# docker-ui
+# docker-logs
 A web interface to list and to display logs of containers from Docker - in real-time using Socket.IO and NodeJS.
 
 ## Getting Started
