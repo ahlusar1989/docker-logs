@@ -1,7 +1,3 @@
-/**
- * Created by eduardo on 20/10/15.
- */
-
 var module = angular.module('DockerApp', []).factory('socket', function ($rootScope) {
 
   var socket = io();
