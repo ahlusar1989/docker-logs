@@ -31,6 +31,7 @@ app.get('/refresh', function (req, res) {
       //console.log(arr);
 
       if(index != 0 && arr[0] != '') {
+        console.log(array);
         containersList.push({id: arr[0], image: arr[1], name: arr[arr.length-2], created: arr[3] + ' ' + arr[4] + ' ' + arr[5]});
       }
     }

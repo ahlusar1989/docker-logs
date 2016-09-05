@@ -53,6 +53,7 @@ module.controller("ContainersController", function($rootScope, $scope, $window, 
 
   $scope.openContainer = function(container) {
     var win = window.open('http://' + container.id + ':6060', '_blank');
+    console.log(win);
     win.focus();
   };
 
@@ -97,7 +98,7 @@ module.controller("ContainersController", function($rootScope, $scope, $window, 
       var text = logDiv.html();
 
       if(text.length > 50000) {
-        logDiv.html(text.slice(text.length/2));
+        logDiv.html(text.slice(text.length));
       }
 
     }, 1000);
